@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mclaure.wordcounter.AppTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mclaure.wordcounter.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\word-counter\target\test-classes;d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\word-counter\target\classes;C:\Users\Marcelo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Marcelo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\Repositorio\word-counter\target\test-classes;d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\Repositorio\word-counter\target\classes;C:\Users\Marcelo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Marcelo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Marcelo\AppData\Local\Temp\surefire3438965009850589114\surefirebooter8164357181035195698.jar C:\Users\Marcelo\AppData\Local\Temp\surefire3438965009850589114 2020-03-17T00-12-30_267-jvmRun1 surefire7700276330065434025tmp surefire_07003290495960249280tmp"/>
-    <property name="surefire.test.class.path" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\word-counter\target\test-classes;d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\word-counter\target\classes;C:\Users\Marcelo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Marcelo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.java.command" value="C:\Users\Marcelo\AppData\Local\Temp\surefire1335496924813993747\surefirebooter645580464803584501.jar C:\Users\Marcelo\AppData\Local\Temp\surefire1335496924813993747 2020-03-17T00-41-32_662-jvmRun1 surefire6388428515436252846tmp surefire_06521692695151615810tmp"/>
+    <property name="surefire.test.class.path" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\Repositorio\word-counter\target\test-classes;d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\Repositorio\word-counter\target\classes;C:\Users\Marcelo\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Marcelo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Marcelo"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
-    <property name="basedir" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\word-counter"/>
+    <property name="basedir" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\Repositorio\word-counter"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Marcelo\AppData\Local\Temp\surefire3438965009850589114\surefirebooter8164357181035195698.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Marcelo\AppData\Local\Temp\surefire1335496924813993747\surefirebooter645580464803584501.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Marcelo\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_241"/>
-    <property name="user.dir" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\word-counter"/>
+    <property name="user.dir" value="d:\Academias\UAB\Tendencias Arquitectonicas\Tareas\Tarea 3\Repositorio\word-counter"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.mclaure.wordcounter.AppTest" time="0"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.mclaure.wordcounter.AppTest" time="0.001"/>
 </testsuite>

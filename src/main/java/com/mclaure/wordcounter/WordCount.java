@@ -11,6 +11,7 @@ public class WordCount
 {
     String SOURCE_FILE_NAME;
     String TARGET_FILE_NAME; 
+    String OUTPUT_DIR;
     String HEADER = "Rank  Word                      Frequency\n"; 
     String HEADER_LINE = "====  ====                      =========\n";
 
@@ -18,7 +19,9 @@ public class WordCount
     {
         String timeStamp = getCurrentTimeStamp();
         SOURCE_FILE_NAME = sourceFileName;
-        TARGET_FILE_NAME = "WordCount_" + timeStamp + ".txt";
+        Path path = FileSystems.getDefault().getPath("").toAbsolutePath();
+        OUTPUT_DIR = path.toString() + "//output";
+        TARGET_FILE_NAME =  "WordCount_" + timeStamp + ".txt";
     }
 
     public String getCurrentTimeStamp() {
@@ -73,7 +76,16 @@ public class WordCount
     private void SaveToFile(List<Map.Entry<String, Integer>> wordCounts)
     {
         int rank = 1;
-        Path path = Paths.get(TARGET_FILE_NAME);
+        File directory = new File(String.valueOf(OUTPUT_DIR));
+        
+        if (!directory.exists()) {
+            directory.mkdir();
+        }
+        String fileName = OUTPUT_DIR + "\\" + TARGET_FILE_NAME;
+
+        System.out.println("Result File: " + fileName);
+
+        Path path = Paths.get(fileName);
 
         try(BufferedWriter writer = Files.newBufferedWriter(path)) 
         {
